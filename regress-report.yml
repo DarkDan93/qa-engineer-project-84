@@ -1,39 +1,40 @@
 ---
-- summary: |
-    Проверка добавления товара в корзину
-  status: pass
+test-cases:
+  - summary: |
+      Проверка добавления товара в корзину
+    status: pass
 
-- summary: |
-    Проверка поиска товаров по ключевому слову
-  status: fail
+  - summary: |
+      Проверка поиска товаров по ключевому слову
+    status: fail
 
-- summary: |
-    Проверка поиска товара по категории
-  status: pass
+  - summary: |
+      Проверка поиска товара по категории
+    status: pass
 
-- summary: |
-    Проверка открытия карточки товара
-  status: pass
+  - summary: |
+      Проверка открытия карточки товара
+    status: pass
 
-- summary: |
-    Проверка фильтра поиска по цене
-  status: pass
+  - summary: |
+      Проверка фильтра поиска по цене
+    status: pass
 
-- summary: |
-    Проверка поиска товаров по бренду
-  status: pass
+  - summary: |
+      Проверка поиска товаров по бренду
+    status: pass
 
-- summary: |
-    Проверка перелистывания страниц с товарами
-  status: pass
+  - summary: |
+      Проверка перелистывания страниц с товарами
+    status: pass
 
-- summary: |
-    Проверка товаров по наличию
-  status: fail
+  - summary: |
+      Проверка товаров по наличию
+    status: fail
 
-- summary: |
-    Проверка переключения языка страницы
-  status: fail
+  - summary: |
+      Проверка переключения языка страницы
+    status: fail
 
 bugreports:
   - summary: |
@@ -52,7 +53,7 @@ bugreports:
       Поиск не работает, никак не меняется список товаров при вводе слова
       Ошибка изображена на Screenshots/search.png
       
-- summary: |
+  - summary: |
       Не работает сортировка товаров по наличию
     environment: |
       Google Chrome 131.0.6778.205 (Официальная сборка), (64 бит)
